@@ -8,6 +8,7 @@ public class IsFibonacci {
 		System.out.println("enter limit");
 		int n=sr.nextInt();
 		int i,f1=0,f2=1,f;
+                System.out.println("The Fibonacci Series :");
 		for(i=0;i<=n;++i) {
 			
 			System.out.println(f1);
