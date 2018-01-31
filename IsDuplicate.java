@@ -14,7 +14,7 @@ public class IsDuplicate {
 		}
 		for(i=0;i<arr.length;i++) {
 			
-			for(j=i+1;j<arr.length;i++) {
+			for(j=i+1;j<arr.length-1;j++) {
 				if(arr[i]==arr[j]) {
 					arr[j]=0;
 				}
