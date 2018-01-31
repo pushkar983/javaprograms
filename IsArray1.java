@@ -5,9 +5,11 @@ public class IsArray1 {
 
 	public static void main(String[] args) {
 		Scanner sr=new Scanner(System.in);
+    		System.out.println("enter limit");
+		int n=sr.nextInt();
 		System.out.println("enter array");
 		int arr[];
-		arr=new int[5];
+		arr=new int[n];
 		int i,j;
 		System.out.println("enter number");
 		for(i=0;i<arr.length;i++) {
